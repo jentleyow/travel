@@ -14,7 +14,7 @@ class App extends Component {
         $('.menu-toggle').toggleClass('menu-bar');
         $('.menu-toggle').toggleClass('menu-cross');
       });
-      $('nav li').click(function(event) {
+      $('nav .links').click(function(event) {
         $('#' + activeId).removeClass('active');
         $('#' + event.target.id).toggleClass('active');
         activeId = event.target.id;

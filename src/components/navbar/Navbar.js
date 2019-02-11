@@ -11,24 +11,30 @@ const Navbar = () => {
         <nav>
           <ul>
             <li>
-              <a id="link1" href="#">
+              <a id="link1" class="links" href="#">
                 Home
               </a>
             </li>
             <li>
-              <a id="link2" href="#country1">
+              <a id="link2" class="links" href="#country1">
                 Malaysia
               </a>
             </li>
             <li>
-              <a id="link3" href="#country2">
+              <a id="link3" class="links" href="#country2">
                 Indonesia
               </a>
             </li>
             <li>
-              <a id="link4" href="#contact">
+              <a id="link4" class="links" href="#contact">
                 Contact Us
               </a>
+            </li>
+            <li>
+              <a class="sociallinks facebook" />
+            </li>
+            <li>
+              <a class="sociallinks instagram" />
             </li>
           </ul>
         </nav>

@@ -3,17 +3,16 @@ header {
   left: 0;
   right: 0;
   width: 100%;
-  background: rgba(255, 255, 255, 0.9);
+  background-color: rgba($color: #fff, $alpha: 0.95);
   box-sizing: border-box;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   z-index: 10;
 }
 
 .logo img {
-  max-width: 230px;
+  max-width: 250px;
   float: left;
-  padding: 20px 10px;
+  padding: 20px 20px;
 }
 
 nav {
@@ -38,9 +37,32 @@ nav ul li a {
 }
 nav ul li a.active,
 nav ul li a:hover {
-  background: $blue2;
+  background: $blue1;
   color: white;
   transition: 0.5s;
+}
+nav ul li a.sociallinks {
+  margin: 10px 10px;
+  padding: 10px 10px;
+  border-radius: 50%;
+}
+nav ul li a.sociallinks.facebook:hover {
+  background-color: #3b5999;
+}
+
+nav ul li a.sociallinks::before {
+  font-family: 'Font Awesome 5 Brands';
+}
+nav ul li a.sociallinks.facebook::before {
+  content: '\f09a';
+}
+
+nav ul li a.sociallinks.instagram::before {
+  content: '\f16d';
+}
+
+nav ul li a.sociallinks:hover {
+  background-color: #e4405f;
 }
 
 @media (max-width: 1066px) {
@@ -75,8 +97,7 @@ nav ul li a:hover {
     position: relative;
     display: none;
     z-index: 100;
-    background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    // background-color: rgba($color: #fff, $alpha: 0.95);
   }
   nav.active {
     display: block;
@@ -88,4 +109,18 @@ nav ul li a:hover {
   nav.active ul li {
     margin: 0;
   }
+
+  /*social links */
+  nav ul li a.sociallinks {
+    border-radius: 0px;
+  }
+  nav ul li a.sociallinks.facebook::after {
+    margin-left: 15px;
+    content: 'Facebook';
+  }
+  nav ul li a.sociallinks.instagram::after {
+    margin-left: 15px;
+    content: 'Instagram';
+  }
+  /*social links */
 }
