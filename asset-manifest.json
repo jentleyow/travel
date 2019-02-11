@@ -1,14 +1,14 @@
 {
-  "main.css": "/travel/static/css/main.19554a51.chunk.css",
-  "main.js": "/travel/static/js/main.254bedae.chunk.js",
-  "main.js.map": "/travel/static/js/main.254bedae.chunk.js.map",
+  "main.css": "/travel/static/css/main.b8bdb253.chunk.css",
+  "main.js": "/travel/static/js/main.f2fbb10a.chunk.js",
+  "main.js.map": "/travel/static/js/main.f2fbb10a.chunk.js.map",
   "runtime~main.js": "/travel/static/js/runtime~main.d1ada824.js",
   "runtime~main.js.map": "/travel/static/js/runtime~main.d1ada824.js.map",
-  "static/js/2.0a78b4d3.chunk.js": "/travel/static/js/2.0a78b4d3.chunk.js",
-  "static/js/2.0a78b4d3.chunk.js.map": "/travel/static/js/2.0a78b4d3.chunk.js.map",
+  "static/js/2.ca8344eb.chunk.js": "/travel/static/js/2.ca8344eb.chunk.js",
+  "static/js/2.ca8344eb.chunk.js.map": "/travel/static/js/2.ca8344eb.chunk.js.map",
   "index.html": "/travel/index.html",
-  "precache-manifest.b00944e5dad0ddcdc2f0da4fc21b5677.js": "/travel/precache-manifest.b00944e5dad0ddcdc2f0da4fc21b5677.js",
+  "precache-manifest.90e6919b56147c8b37610aadd6beb5c9.js": "/travel/precache-manifest.90e6919b56147c8b37610aadd6beb5c9.js",
   "service-worker.js": "/travel/service-worker.js",
-  "static/css/main.19554a51.chunk.css.map": "/travel/static/css/main.19554a51.chunk.css.map",
+  "static/css/main.b8bdb253.chunk.css.map": "/travel/static/css/main.b8bdb253.chunk.css.map",
   "static/media/index.scss": "/travel/static/media/bg.f61374d4.jpg"
 }
