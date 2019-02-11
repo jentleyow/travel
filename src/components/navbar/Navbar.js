@@ -3,7 +3,7 @@ import logo from '../../img/logo.png';
 const Navbar = () => {
   return (
     <header>
-      <div class="container">
+      <div className="container">
         <a href="#" className="logo">
           <img src={logo} />
         </a>
@@ -16,8 +16,18 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a id="link2" href="#about">
-                About
+              <a id="link2" href="#country1">
+                Malaysia
+              </a>
+            </li>
+            <li>
+              <a id="link3" href="#country2">
+                Indonesia
+              </a>
+            </li>
+            <li>
+              <a id="link4" href="#contact">
+                Contact Us
               </a>
             </li>
           </ul>

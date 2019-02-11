@@ -2,7 +2,7 @@
   "name": "travel",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jentleyow.github.io/travel",
+  "homepage": "https://jentleyow.github.io/travel/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "firebase": "^5.8.2",
